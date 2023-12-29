@@ -53,7 +53,7 @@ function iniciar_game(tipo){
     container_botoes.style.display = 'none'
     jogador_atual.style.display = 'flex'
     container_jogo.style.display = 'grid'
-    modo = tipo
+    modo_jogo = tipo
 }
 
 function clique(div){
