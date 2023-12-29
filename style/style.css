@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebe86a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+main > h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.103);
+}
+
+main > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+main > div#container_info {
+    display: none;
+    flex-direction: column;
+}
+
+main > div#container_info > p {
+    font-size: 18px;
+}
+
+
+main > div > button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.411);
+}
+
+main > div > button:hover {
+    background-color: white;
+}
+
+main > section {
+    display: none;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas: 
+    "div1 div2 div3"
+    "div4 div5 div6"
+    "div7 div8 div9";
+
+    padding-top: 5px;
+}
+
+main > section > div {
+    background: white ;
+    color: black;
+
+    font-size: 130px;
+    text-align: center;
+    
+    user-select: none;
+    cursor: pointer;
+}
+
+main > section > div > span {
+    opacity: 70%;
+}
+
+main > section > div#div00 {
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+}
+
+main > section > div#div01 {
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+}
+
+main > section > div#div02 {
+    border-bottom: 7px solid black;
+}
+
+main > section > div#div10 {
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+}
+
+main > section > div#div11 {
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+}
+
+main > section > div#div12 {
+    border-bottom: 7px solid black;
+}
+
+main > section > div#div20 {
+    border-right: 7px solid black;
+}
+
+main > section > div#div21 {
+    border-right: 7px solid black;
+}
